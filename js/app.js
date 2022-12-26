@@ -9,27 +9,11 @@ let servicesInfo=[
 
     },
     {
-        "imgUrl": "https://img.icons8.com/nolan/64/mobile-package-tracking.png",
-        "heading": "App Development",
-        "description" : "Need an App that provides to the needs of your company? Need Developers who can provide services according to your design? If these are your questions, We are your answer.",
-        "linkText": "Get an App for your business →",
-        "id": "app"
-
-    },
-    {
         "imgUrl": "https://img.icons8.com/nolan/64/adobe-illustrator.png",
         "heading": "Designing",
         "description" : "We help you deal with talented designers whether it be graphics or UI/UX designs. Make your project stand out and power up your brand, with our effective and quality services.",
         "linkText": "Get an awesome design →",
         "id": "design"
-
-    },
-    {
-        "imgUrl": "https://img.icons8.com/nolan/64/video.png",
-        "heading": "Video Editing",
-        "description" : "We transform your raw footage into professional video. Excelling at making your videos from simple to stunning, We turn your given content into impactful visuals.",
-        "linkText": "Get your video edited! →",
-        "id": "vedit"
 
     },
     {
@@ -39,13 +23,6 @@ let servicesInfo=[
         "linkText": "Get Content Writer →",
         "id": "cntwrt"
 
-    },
-    {
-        "imgUrl": "https://img.icons8.com/nolan/64/commercial.png",
-        "heading": "Digital Marketing",
-        "description" : "Looking someone to help you advertise and follow-up your business? We produce strategies and give results which have max reach to your business and help you maintain your social media.",
-        "linkText": "Market your business online →",
-        "id": "dimark"
     }
 ]
 
