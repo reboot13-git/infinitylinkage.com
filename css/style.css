@@ -366,9 +366,6 @@ footer {
   .service-cards {
     grid-template-columns: repeat(1, 1fr) !important;
   }
-  .row {
-    margin-left: 0%;
-  }
 }
 @media only screen and (max-width: 500px) {
   .jocod {
@@ -401,6 +398,14 @@ footer {
   }
   .servicetag {
     padding-inline: 1rem;
+  }
+  .feature-icons {
+    margin-inline: 1.3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .form-margin {
+    margin-inline: 1.3rem;
   }
 }
 .slider-section {
