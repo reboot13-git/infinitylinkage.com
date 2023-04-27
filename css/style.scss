@@ -266,13 +266,14 @@ svg:hover{
 //     width: 100%;
 // }
 .contactus{
-    background: url(/imgs/contactus.png) no-repeat center center;
+    // background: url(/imgs/contactus.png) no-repeat center center;
     padding-block:3rem ;
     background-size: cover;
     overflow: hidden;
     margin-bottom: 0;
     h1{
-        color: #fff;
+        color: #000;
+        text-transform: uppercase;
     }
     .container{
         .row{
@@ -314,7 +315,7 @@ svg:hover{
     color: #fff!important;
 }
 label{
-    color: #fff;
+    color: #000000;
     font-family: sans-serif;
 }
 input,textarea{
@@ -325,13 +326,21 @@ input,textarea{
     border-radius: 0!important;
     color: #fff!important;
 }
-
-
-footer{
+button[type="submit"]{
     color: #fff;
 }
+.mymail{
+    color: #5B4DFF!important;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+footer{
+    color: #000000;
+}
 .footer{
-    background: url(/imgs/footer.png) no-repeat center center;
+    // background: url(/imgs/footer.png) no-repeat center center;
     background-size: cover;
     padding-bottom: 1rem;
 }
@@ -397,18 +406,10 @@ footer{
     .service-cards{
         grid-template-columns: repeat(1,1fr)!important;
     }
-    .blob1,.blob2{
-        height: 500px;
-        width: auto;
-    }
-    .blob1{
-       
-        top: 0rem;
-        left: -2rem;
-    }
-    .blob2{
-        bottom: 0rem;
-        right: -2rem;
+
+
+    .row{
+        margin-left: 0%;
     }
 }
 
@@ -457,7 +458,11 @@ footer{
     .footer {
         text-align: center;
     }
+    .servicetag{
+        padding-inline: 1rem;
+    }
 
+ 
 
 }
 
