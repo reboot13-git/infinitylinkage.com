@@ -30,7 +30,8 @@ html {
 //   }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: #191919;
+    background-color: #fff;
+    color: #000;
 }
 nav{
     position: fixed!important;
@@ -39,13 +40,15 @@ nav{
     right: 0;
     padding: .55rem 0!important;
     z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
-.bg-dark {
-    background-color: #191919!important;
+.bg-light {
+    background-color: #fff!important;
 }
 
 .logo {
-    color: #fff;
+    color: #000000;
+    font-weight: 600;
     padding-top: .1rem;
     h5{
         margin: 0;
@@ -57,11 +60,11 @@ nav{
 }
 
 .nav-link {
-    color: #fff;
+    color: #000000;
     padding: .8rem .1rem;
     margin-inline: .5rem;
     &:hover{
-        color: #fff;
+        color: #000000;
         text-decoration: underline;
         transition: all 3s ease-in ;
     }
@@ -79,19 +82,20 @@ nav{
     // height: 100vh;
     width: 100%;
     position: relative;
-    background: url(/imgs/hero-bg.png) no-repeat center center;
+    // background: url(/imgs/hero-bg.png) no-repeat center center;
     background-size: cover;
     .container{
         position: relative;
     }
     .title{
-        font-weight: 600;
-        font-size: 3.5rem;
-        color: #fff;
+        font-weight: 800;
+        font-size: 3.1rem;
+        color: #000000;
+        text-transform: uppercase;
     }
     .sub-title{
         font-size: .9rem;
-        color: #fff;
+        color: #4f4f4f;
     }
     .hero-team{
         width: 100%;
@@ -121,19 +125,44 @@ nav{
 }
 
 
+svg:hover{
+    fill: #5B4DFF;
+ }
+
 .btn-hover{
+    background-color: #5B4DFF;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 300ms ease-in;
     &:hover{
          background-color: transparent;
-         border: 1px solid #2e68ff;
-         color: #2e68ff;
+         border: 1px solid #5B4DFF;
+         border-radius: 0;
+         color: #5B4DFF;
+
     }
 }
 
+.btn-hover:hover #discord{
+    fill: #5B4DFF!important;
+    transition: all 300ms ease-in;
+
+}
+#discord{
+    fill: #fff;
+}
+
 .aboutus{
-    background: url(/imgs/about-us.png) no-repeat center center;
     background-size: cover;
 #aboutus,.lead{
-    color: #fff!important;
+    color: #000!important;
+    font-size: 1.1rem;
+}
+
+#aboutus{
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 .laptop-hover{
@@ -158,9 +187,17 @@ nav{
 
 .services {
     padding: 3rem 0;
-    color: #fff;
-    background: url(/imgs/service-bg.png) no-repeat center center;
+    color: #000;
     background-size: cover;
+    .ourservices{
+        text-transform: uppercase;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    .servicetag{
+        font-size: 1rem;
+        color: #4f4f4f;
+    }
     .service-cards{
        
         margin-top: 5rem!important;
@@ -332,6 +369,12 @@ footer{
    }
 @media only screen 
    and (max-width : 800px) {
+    .d-grid{
+        justify-content: center;
+    }
+    .lead{
+        padding-inline: 2.1rem!important;
+    }
        .contactus{
            h1{
                text-align: center;
@@ -424,3 +467,45 @@ footer{
 // #web{
 //     cursor: url("/imgs/menu.svg") ,auto;
 // }
+
+.slider-section{
+    background-color: #5B4DFF;
+    padding-block: .5rem;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 10));
+    }
+  }
+  .slider {
+    background: #5B4DFF;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 1260px;
+  }
+
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    animation: scroll 30s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
+
