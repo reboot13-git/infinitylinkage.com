@@ -182,7 +182,10 @@ svg:hover{
 }
 
 }
-
+.ourstory-animation {
+    width: 100%;;
+    height: auto;
+}
 
 
 .services {
@@ -482,6 +485,7 @@ footer{
 .slider-section{
     background-color: #5B4DFF;
     padding-block: .5rem;
+    // height: fill-available - rem;
 }
 
 @keyframes scroll {

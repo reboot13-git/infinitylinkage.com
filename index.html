@@ -26,6 +26,7 @@
     <!-- js  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/main.js" defer></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
 <body oncontextmenu="return false">
@@ -61,7 +62,7 @@
 
 
 
-    <section class="hero" data-aos="fade-down"
+    <section class="hero d-flex flex-column" data-aos="fade-down"
     data-aos-anchor-placement="center-bottom" id="hero">
 
     <div class="container col-xxl-8 px-4">
@@ -84,27 +85,25 @@
     </div>
   </div>
 
-    </section>
-
-
-    <div class="slider-section container-fluid">
-      <div class="container">
-        <div class="row d-flex justify-content-center align-items-center">
-          <div class="slider">
-            <div class="slide-track">
-              
-              <!-- <div class="slide">
-                <img src="" alt="brand-number-one-1" height="100" width="250" alt="" />
-              </div> -->
-              
-
+  <div class="slider-section container-fluid">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="slider">
+          <div class="slide-track">
             
-            </div>
+            <!-- <div class="slide">
+              <img src="" alt="brand-number-one-1" height="100" width="250" alt="" />
+            </div> -->
+            
           </div>
         </div>
       </div>
-
     </div>
+
+  </div>
+
+    </section>
+
     <!-- start of about  -->
     <section class="aboutus" >
     <div class="container d-flex justify-content-center">
@@ -137,7 +136,9 @@
           </div>
         </div>
         <div class="col-10 col-sm-8 col-lg-6 hero-blob2 ">
-          <img src="imgs/platform-content.png" class="d-block mx-lg-auto img-fluid laptop-hover" alt="laptop-hover" width="700" height="500" loading="lazy">
+          <!-- <img src="imgs/platform-content.png" class="d-block mx-lg-auto img-fluid laptop-hover" alt="laptop-hover" width="700" height="500" loading="lazy"> -->
+          <lottie-player class="ourstory-animation" src="https://lottie.host/75af5a8c-82e3-48c7-b184-d3620ac368db/bmNCwzL8eg.json" background="#FFFFFF" speed="1"  loop="-1" no-controls autoplay="true" direction="1" mode="normal">
+          </lottie-player>
         </div>
       </div>
     </div>

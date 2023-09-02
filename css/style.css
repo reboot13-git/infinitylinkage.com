@@ -171,6 +171,11 @@ svg:hover {
   }
 }
 
+.ourstory-animation {
+  width: 100%;
+  height: auto;
+}
+
 .services {
   padding: 3rem 0;
   color: #000;
@@ -259,8 +264,7 @@ svg:hover {
   height: 560px;
   width: 100%;
   overflow: hidden;
-  -webkit-margin-before: 3rem;
-          margin-block-start: 3rem;
+  margin-block-start: 3rem;
 }
 
 .clients .container {
