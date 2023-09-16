@@ -1,3 +1,12 @@
+let loadingscreen = document.getElementById("loadingscreen")
+
+window.addEventListener("load", function () {'use strict';
+    loadingscreen.style.display = "none"
+    document.getElementById("body").style.overflowY = "visible"
+})
+
+
+
 
 // let servicesInfo = '/js/services.json'
 
