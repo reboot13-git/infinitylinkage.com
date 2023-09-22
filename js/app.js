@@ -25,6 +25,6 @@
 
 
 
-window.onload = function () {
-    alert("We'are rightnow revamping our website, don't judge us by our current website.Directly writing code in production.")
-}
+// window.onload = function () {
+//     alert("We'are rightnow revamping our website, don't judge us by our current website.Directly writing code in production.")
+// }
