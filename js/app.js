@@ -1,3 +1,15 @@
+let loadingscreen = document.getElementById("loadingscreen")
+
+window.addEventListener("load", function () {'use strict';
+   //wait for the page to load and 3 seconds
+    setTimeout(function () {
+    loadingscreen.style.display = "none"
+    document.getElementById("body").style.overflowY = "visible"
+    }, 500)
+})
+
+
+
 
 // let servicesInfo = '/js/services.json'
 
