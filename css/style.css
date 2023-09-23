@@ -31,7 +31,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #fff;
+  background: #fff;
   color: #000;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -87,6 +87,7 @@ nav {
   height: 100vh;
   width: 100%;
   position: relative;
+  background: url(/imgs/background-hero.svg) no-repeat center center;
   background-size: cover;
 }
 .hero .container {
@@ -125,7 +126,7 @@ nav {
 }
 
 svg:hover {
-  fill: #5B4DFF;
+  fill: #30BB93;
 }
 
 .btn-hover {
@@ -180,9 +181,11 @@ svg:hover {
 }
 
 .services {
+  background: url(/imgs/background-services.svg) no-repeat center center;
   padding: 3rem 0;
   color: #000;
-  background-size: cover;
+  background-size: contain;
+  overflow: visible;
 }
 .services .ourservices {
   text-transform: uppercase;

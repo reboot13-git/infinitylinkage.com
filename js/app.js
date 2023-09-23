@@ -1,5 +1,5 @@
 let loadingscreen = document.getElementById("loadingscreen")
-
+let body =  document.getElementById("body");
 window.addEventListener("load", function () {'use strict';
    //wait for the page to load and 3 seconds
     setTimeout(function () {
