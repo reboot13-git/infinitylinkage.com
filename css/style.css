@@ -351,20 +351,8 @@ footer {
   }
 }
 @media only screen and (max-width: 800px) {
-  .d-grid {
-    justify-content: center;
-  }
   .lead {
     padding-inline: 2.1rem !important;
-  }
-  .contactus h1 {
-    text-align: center;
-  }
-  .ourservices, .servicetag {
-    text-align: center;
-  }
-  .hero-content {
-    text-align: center;
   }
   .card {
     width: 19rem !important;
