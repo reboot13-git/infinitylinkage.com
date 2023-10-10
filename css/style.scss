@@ -84,7 +84,8 @@ nav{
     height: 100vh;
     width: 100%;
     position: relative;
-    background: url(/imgs/background-hero.svg) no-repeat center center;
+    // background: url(/imgs/background-hero\ 1.png) no-repeat center center;
+
     background-size: cover;
     .container{
         position: relative;
@@ -96,8 +97,10 @@ nav{
         text-transform: uppercase;
     }
     .sub-title{
-        font-size: .9rem;
-        color: #4f4f4f;
+        font-size: 1rem;
+        // color: #4f4f4f;
+        color: #000;
+        font-weight: 400;
     }
     .hero-team{
         width: 100%;
@@ -136,7 +139,7 @@ svg:hover{
     border-radius: 0;
     text-transform: uppercase;
     font-weight: 600;
-    transition: all 300ms ease-in;
+    transition: all 400ms ease-in;
     &:hover{
          background-color: transparent;
          border: 1px solid #5B4DFF;
@@ -188,7 +191,35 @@ svg:hover{
     width: 100%;;
     height: auto;
 }
-
+.hero-main-img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.ourwork{
+    background: #5B4DFF;
+    .container{
+        .row{
+            .col-md-3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 1rem;
+                color: #fff;
+                h5{
+                    font-size: 1.5rem;
+                    font-weight: 800;
+                }
+                p{
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
 
 .services {
     background: url(/imgs/background-services.svg) no-repeat center center;
