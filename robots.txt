@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /calendar/
-Disallow: /junk/
-Disallow: /books/fiction/contemporary/
-Disallow: /js/jquery.js
