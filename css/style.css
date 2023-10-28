@@ -87,7 +87,6 @@ nav {
   height: 100vh;
   width: 100%;
   position: relative;
-  background: url(/imgs/background-hero.svg) no-repeat center center;
   background-size: cover;
 }
 .hero .container {
@@ -100,8 +99,9 @@ nav {
   text-transform: uppercase;
 }
 .hero .sub-title {
-  font-size: 0.9rem;
-  color: #4f4f4f;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 400;
 }
 .hero .hero-team {
   width: 100%;
@@ -134,7 +134,7 @@ svg:hover {
   border-radius: 0;
   text-transform: uppercase;
   font-weight: 600;
-  transition: all 300ms ease-in;
+  transition: all 400ms ease-in;
 }
 .btn-hover:hover {
   background-color: transparent;
@@ -180,15 +180,30 @@ svg:hover {
   height: auto;
 }
 
+<<<<<<< HEAD
 .ourwork {
   background: #5B4DFF;
   color: #fff;
   padding: 3rem 0;
+=======
+.hero-main-img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.ourwork {
+  background: #5B4DFF;
+>>>>>>> 9e452db48dd3955910c2274926bd7729162591dc
 }
 .ourwork .container .row .col-md-3 {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
 }
 .ourwork .container .row .col-md-3 .card {
   background: transparent;
@@ -210,6 +225,19 @@ svg:hover {
 }
 .ourwork .container .row .col-md-3 .card a:hover {
   color: #30BB93;
+=======
+  flex-direction: column;
+  padding: 1rem;
+  color: #fff;
+}
+.ourwork .container .row .col-md-3 h5 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.ourwork .container .row .col-md-3 p {
+  font-size: 1rem;
+  font-weight: 600;
+>>>>>>> 9e452db48dd3955910c2274926bd7729162591dc
 }
 
 .services {
@@ -383,20 +411,9 @@ footer {
   }
 }
 @media only screen and (max-width: 800px) {
-  .d-grid {
-    justify-content: center;
-  }
   .lead {
-    padding-inline: 2.1rem !important;
-  }
-  .contactus h1 {
-    text-align: center;
-  }
-  .ourservices, .servicetag {
-    text-align: center;
-  }
-  .hero-content {
-    text-align: center;
+    padding-inline: 0.5rem !important;
+    text-align: start;
   }
   .card {
     width: 19rem !important;
@@ -437,9 +454,6 @@ footer {
   }
   .footer {
     text-align: center;
-  }
-  .servicetag {
-    padding-inline: 1rem;
   }
   .feature-icons {
     margin-inline: 1.3rem;
