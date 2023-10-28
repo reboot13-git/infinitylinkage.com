@@ -180,6 +180,38 @@ svg:hover {
   height: auto;
 }
 
+.ourwork {
+  background: #5B4DFF;
+  color: #fff;
+  padding: 3rem 0;
+}
+.ourwork .container .row .col-md-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourwork .container .row .col-md-3 .card {
+  background: transparent;
+}
+.ourwork .container .row .col-md-3 .card .card-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.ourwork .container .row .col-md-3 .card .card-text {
+  color: #fff;
+  font-size: 0.9rem;
+}
+.ourwork .container .row .col-md-3 .card a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.ourwork .container .row .col-md-3 .card a:hover {
+  color: #30BB93;
+}
+
 .services {
   background: url(/imgs/background-services.svg) no-repeat center center;
   padding: 3rem 0;
