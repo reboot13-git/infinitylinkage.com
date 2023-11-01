@@ -359,8 +359,8 @@ label{
 input,textarea{
     backdrop-filter: blur(24px) saturate(200%)!important;
     -webkit-backdrop-filter: blur(16px) saturate(200%)!important;
-    background-color: rgba(114, 114, 114, 0.14)!important;
-    border: 1px solid rgba(255, 255, 255, 0.125)!important;
+    background-color: #d9d9d9 !important;
+    border: 1px solid rgba(255, 255, 255, 0.125) !important;
     border-radius: 0!important;
     color: #000000!important;
 }
